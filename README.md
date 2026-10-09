@@ -20,6 +20,15 @@
   <img src="https://img.shields.io/badge/Focus-AI%20%2B%20Backend-818CF8?style=for-the-badge&logo=python&logoColor=white&labelColor=0d1117" alt="focus" />
 </div>
 
+<div align="center">
+  <a href="https://jumabay2101.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-jumabay2101.vercel.app-34D399?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d1117" alt="portfolio" />
+  </a>
+  <a href="https://drive.google.com/file/d/14I2vJBYJ0Mq2_nFgemEGWpj1hlqHfPA6/view?usp=sharing" target="_blank">
+    <img src="https://img.shields.io/badge/Resume-Download%20PDF-FF5733?style=for-the-badge&logo=googledrive&logoColor=white&labelColor=0d1117" alt="resume" />
+  </a>
+</div>
+
 <br/>
 
 ## 🧑‍🚀 About Me
@@ -39,6 +48,7 @@ frontend:  [Vue.js, Nuxt.js]
 mobile:    [Flutter]
 devops:    [Docker, Docker Compose, Nginx, Apache, Linux]
 looking_for: Full-time role · Contract · Freelance
+portfolio: https://jumabay2101.vercel.app
 contact:   atabekiskander@gmail.com
 fun_fact:  "🎮 Dota 2 when the models are training"
 ```
@@ -237,6 +247,9 @@ fun_fact:  "🎮 Dota 2 when the models are training"
 ## 🌐 Let's Connect
 
 <div align="center">
+  <a href="https://jumabay2101.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-jumabay2101.vercel.app-34D399?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0d1117" />
+  </a>
   <a href="mailto:atabekiskander@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
@@ -257,6 +270,16 @@ fun_fact:  "🎮 Dota 2 when the models are training"
 
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="quote" />
+</div>
+
+<br/>
+
+## 📄 Resume
+
+<div align="center">
+  <a href="https://drive.google.com/file/d/14I2vJBYJ0Mq2_nFgemEGWpj1hlqHfPA6/view?usp=sharing" target="_blank">
+    <img src="https://img.shields.io/badge/Download%20My%20Resume-PDF-FF5733?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=0d1117" />
+  </a>
 </div>
 
 <br/>
