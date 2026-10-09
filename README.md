@@ -1,72 +1,77 @@
-<h1 align="center">Hi 👋, I'm Jumabay</h1>
-<h3 align="center">Backend Developer Specializing in Django and FastAPI</h3>
+<h1 align="center">Hi 👋, I'm Atush Iskenderow</h1>
+<h3 align="center">Full-stack &amp; AI Engineer · Django · FastAPI · LLM / RAG · Vue / Nuxt · Flutter · Docker</h3>
 
-- 🔭 **Currently working on**: Building robust applications with Django and FastAPI  
-- 🌱 **Currently learning**: Artificial Intelligence, Machine Learning, and GPU-based training  
-- 👯 **Open to collaboration**: Projects involving Django, FastAPI, and AI/ML solutions  
-- 🤝 **Available for**: Freelance opportunities  
-- ⚡ **Fun fact**: I enjoy playing Dota 2 in my free time  
-
-<h3 align="left">Connect with Me</h3>
-<p align="left">
-  <a href="https://instagram.com/atushiskenderow" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="30" width="40" />
-  </a>
-  <a href="tel:+99364834681" target="_blank">
-    <img align="center" src="https://cdn-icons-png.flaticon.com/512/5585/5585856.png" alt="Phone" height="30" width="40" />
-    <span>+99364834681</span>
-  </a>
+<p align="center">
+  <a href="mailto:atabekiskander@gmail.com"><img src="https://img.shields.io/badge/Email-atabekiskander%40gmail.com-10b981?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="tel:+99364834681"><img src="https://img.shields.io/badge/Phone-%2B993%2064%2083%2046%2081-10b981?style=flat-square&logo=phone&logoColor=white" alt="Phone"/></a>
+  <a href="https://instagram.com/atushiskenderow"><img src="https://img.shields.io/badge/Instagram-@atushiskenderow-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram"/></a>
+  <img src="https://img.shields.io/badge/Status-Open%20to%20work-34d399?style=flat-square" alt="Open to work"/>
 </p>
 
-<h3 align="left">Tech Stack</h3>
+---
 
-**Frontend**:  
+### 👨‍💻 About me
+
+I'm a Python-first engineer who builds **backend systems** and puts **AI models into real products**, then ships the whole thing:
+web frontend, mobile app and production deployment.
+
+- 🔭 **Backend:** REST APIs with **Django / DRF** and **FastAPI**, PostgreSQL, Redis, Celery, RabbitMQ
+- 🧠 **AI / ML:** LLMs, **RAG systems**, NLP, **fine-tuning** (LoRA/QLoRA), **model quantization**, **speech-to-text**, **text-to-speech**, **image classification**
+- 🎨 **Frontend:** **Vue.js** and **Nuxt.js**
+- 📱 **Mobile:** **Flutter** (Android & iOS)
+- 🚀 **DevOps:** **Docker / Docker Compose**, **Nginx** and **Apache** configuration, SSL, Linux servers
+- 🤝 **Looking for:** a full-time role, contract or freelance work (remote-friendly)
+
+### 🛠️ What I can build for you
+
+| | |
+|---|---|
+| 🤖 **AI assistant over your documents** | RAG chatbot with sources, auth and admin panel |
+| 🔒 **Self-hosted LLM** | Fine-tuned + quantized open model on your own GPU |
+| 🎙️ **Voice features** | Transcription (STT) and natural voice generation (TTS) |
+| 🖼️ **Image recognition API** | Custom classifier served as a REST endpoint |
+| 🌐 **Web platform / SaaS** | Django or FastAPI backend + Vue/Nuxt frontend |
+| 📲 **Mobile app + deployment** | Flutter app, Dockerized backend behind Nginx |
+
+### 🧰 Tech stack
+
+**Backend**
 <p align="left">
-  <a href="https://www.w3schools.com/css/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="40" height="40"/></a>
-  <a href="https://getbootstrap.com" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap" width="40" height="40"/></a>
-  <a href="https://vuejs.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="Vue.js" width="40" height="40"/></a>
-  <a href="https://vuetifyjs.com/en/" target="_blank"><img src="https://bestofjs.org/logos/vuetify.svg" alt="Vuetify" width="40" height="40"/></a>
-  <a href="https://www.sass-lang.com" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="SASS" width="40" height="40"/></a>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/>
+  <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="Django" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" alt="FastAPI" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" alt="Redis" width="40" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg" alt="RabbitMQ" width="40" height="40"/>
 </p>
 
-**Backend**:  
+**AI / ML**
 <p align="left">
-  <a href="https://www.djangoproject.com/" target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="Django" width="40" height="40"/></a>
-  <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/python/python-icon.svg" alt="FastAPI" width="40" height="40"/></a>
-  <a href="https://flask.palletsprojects.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="Flask" width="40" height="40"/></a>
-  <a href="https://expressjs.com" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="Express" width="40" height="40"/></a>
+  <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="PyTorch" width="40" height="40"/>
+  <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face" width="40" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="TensorFlow" width="40" height="40"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit-learn" width="40" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="OpenCV" width="40" height="40"/>
 </p>
 
-**AI/ML**:  
+**Frontend & Mobile**
 <p align="left">
-  <a href="https://pytorch.org/" target="_blank"><img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="PyTorch" width="40" height="40"/></a>
-  <a href="https://www.tensorflow.org" target="_blank"><img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="TensorFlow" width="40" height="40"/></a>
-  <a href="https://scikit-learn.org/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit-learn" width="40" height="40"/></a>
-  <a href="https://opencv.org/" target="_blank"><img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="OpenCV" width="40" height="40"/></a>
-  <a href="https://seaborn.pydata.org/" target="_blank"><img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="Seaborn" width="40" height="40"/></a>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" alt="Vue.js" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nuxtjs/nuxtjs-original.svg" alt="Nuxt.js" width="40" height="40"/>
+  <img src="https://bestofjs.org/logos/vuetify.svg" alt="Vuetify" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg" alt="Flutter" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg" alt="Dart" width="40" height="40"/>
 </p>
 
-**DevOps & Tools**:  
+**DevOps & Tools**
 <p align="left">
-  <a href="https://www.python.org" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/></a>
-  <a href="https://www.postgresql.org" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="PostgreSQL" width="40" height="40"/></a>
-  <a href="https://redis.io" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="Redis" width="40" height="40"/></a>
-  <a href="https://www.rabbitmq.com" target="_blank"><img src="https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg" alt="RabbitMQ" width="40" height="40"/></a>
-  <a href="https://www.docker.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="Docker" width="40" height="40"/></a>
-  <a href="https://git-scm.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40"/></a>
-  <a href="https://www.postman.com" target="_blank"><img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" width="40" height="40"/></a>
-  <a href="https://www.elastic.co" target="_blank"><img src="https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg" alt="Elasticsearch" width="40" height="40"/></a>
-  <a href="https://www.firebase.google.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="Firebase" width="40" height="40"/></a>
-  <a href="https://heroku.com" target="_blank"><img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="Heroku" width="40" height="40"/></a>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="Nginx" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apache/apache-original.svg" alt="Apache" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" width="40" height="40"/>
 </p>
 
-**Operating Systems**:  
-<p align="left">
-  <a href="https://www.linux.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="40" height="40"/></a>
-  <a href="https://www.gnu.org/software/bash/" target="_blank"><img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="Bash" width="40" height="40"/></a>
-</p>
+---
 
-**Embedded Systems**:  
-<p align="left">
-  <a href="https://www.arduino.cc/" target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="Arduino" width="40" height="40"/></a>
-</p>
+<p align="center">💬 <b>Have a project or a role in mind?</b> <a href="mailto:atabekiskander@gmail.com">Email me</a>. I usually reply within a day.</p>
