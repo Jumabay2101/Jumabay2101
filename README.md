@@ -10,7 +10,7 @@
 
 ---
 
-### 👨‍💻 About me
+### 👨‍💻 About me 
 
 I'm a Python-first engineer who builds **backend systems** and puts **AI models into real products**, then ships the whole thing:
 web frontend, mobile app and production deployment.
