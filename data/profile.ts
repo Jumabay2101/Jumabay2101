@@ -6,7 +6,8 @@ export const profile = {
   name: 'Atush Iskenderow',
   shortName: 'Atush',
   title: 'Full-stack & AI Engineer',
-  siteUrl: 'https://atush.vercel.app', // ← change to your Vercel URL / domain
+  siteUrl: 'https://jumabay2101.vercel.app',
+  resume: 'https://drive.google.com/file/d/14I2vJBYJ0Mq2_nFgemEGWpj1hlqHfPA6/view?usp=sharing',
   location: 'Turkmenistan · Open to remote',
   availability: 'Open to full-time, contract & freelance work',
   roles: [

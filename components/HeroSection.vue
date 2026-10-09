@@ -45,6 +45,7 @@ onBeforeUnmount(() => clearTimeout(timer))
         <p class="lead">{{ profile.intro }}</p>
         <div class="cta">
           <a class="btn btn-primary" href="#contact"><AppIcon name="mail" />Get in touch</a>
+          <a class="btn btn-ghost" :href="profile.resume" target="_blank" rel="noopener"><AppIcon name="download" />Download CV</a>
           <a class="btn btn-ghost" href="#ai-lab"><AppIcon name="sparkles" />See what I build</a>
           <a class="btn btn-ghost icon-only" :href="profile.contact.github" target="_blank" rel="noopener" aria-label="GitHub"><AppIcon name="github" /></a>
         </div>

@@ -38,6 +38,7 @@ onBeforeUnmount(() => window.removeEventListener('scroll', onScroll))
         </a>
         <div class="links">
           <a v-for="l in links" :key="l.href" :href="l.href">{{ l.label }}</a>
+          <a :href="profile.resume" target="_blank" rel="noopener" class="cv"><AppIcon name="download" />Resume</a>
         </div>
         <div class="right">
           <button class="icon-btn" :aria-label="`Switch to ${theme === 'dark' ? 'light' : 'dark'} theme`" @click="toggleTheme">
@@ -51,6 +52,7 @@ onBeforeUnmount(() => window.removeEventListener('scroll', onScroll))
       </nav>
       <div v-if="open" class="mobile">
         <a v-for="l in links" :key="l.href" :href="l.href" @click="open = false">{{ l.label }}</a>
+        <a :href="profile.resume" target="_blank" rel="noopener" @click="open = false">Download resume (PDF)</a>
         <a class="btn btn-primary" href="#contact" @click="open = false">Hire me</a>
       </div>
     </div>
@@ -75,6 +77,8 @@ nav { display: flex; align-items: center; justify-content: space-between; height
 .links { display: none; gap: 30px; font-size: 14px; color: var(--muted); font-weight: 500; }
 .links a { transition: color .2s; }
 .links a:hover { color: var(--text); }
+.links .cv { display: inline-flex; align-items: center; gap: 6px; color: var(--accent); }
+.links .cv svg { width: 15px; height: 15px; }
 .right { display: flex; gap: 10px; align-items: center; }
 .icon-btn { width: 40px; height: 40px; border-radius: 11px; border: 1px solid var(--border); background: var(--surface); display: grid; place-items: center; }
 .icon-btn svg { width: 18px; height: 18px; }

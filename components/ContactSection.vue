@@ -29,6 +29,7 @@ async function copyEmail() {
       <p class="sub">I'm looking for a full-time role or freelance projects in backend, AI or full-stack development. Reach out — I usually reply within a day.</p>
       <div class="cta">
         <a class="btn btn-primary" :href="`mailto:${c.email}?subject=Job%20opportunity`"><AppIcon name="mail" />Email me</a>
+        <a class="btn btn-ghost" :href="profile.resume" target="_blank" rel="noopener"><AppIcon name="download" />Download CV</a>
         <button class="btn btn-ghost" @click="copyEmail">
           <AppIcon :name="copied ? 'check' : 'copy'" />{{ copied ? 'Copied!' : 'Copy email' }}
         </button>
