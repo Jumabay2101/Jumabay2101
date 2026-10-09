@@ -3,6 +3,7 @@ import { profile } from '~/data/profile'
 
 const links = [
   { href: '#about', label: 'About' },
+  { href: '#projects', label: 'Projects' },
   { href: '#skills', label: 'Skills' },
   { href: '#ai-lab', label: 'AI Lab' },
   { href: '#services', label: 'Services' },
@@ -74,7 +75,7 @@ header.scrolled, header.open {
 nav { display: flex; align-items: center; justify-content: space-between; height: 68px; gap: 16px; }
 .logo { font-weight: 800; letter-spacing: -.02em; display: flex; align-items: center; gap: 10px; white-space: nowrap; }
 .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 4px var(--accent-soft); }
-.links { display: none; gap: 30px; font-size: 14px; color: var(--muted); font-weight: 500; }
+.links { display: none; gap: 26px; white-space: nowrap; font-size: 14px; color: var(--muted); font-weight: 500; }
 .links a { transition: color .2s; }
 .links a:hover { color: var(--text); }
 .links .cv { display: inline-flex; align-items: center; gap: 6px; color: var(--accent); }
@@ -86,7 +87,7 @@ nav { display: flex; align-items: center; justify-content: space-between; height
 .mobile { display: flex; flex-direction: column; gap: 4px; padding: 8px 0 20px; }
 .mobile a:not(.btn) { padding: 12px 4px; font-weight: 500; border-bottom: 1px solid var(--border); }
 .mobile .btn { margin-top: 12px; justify-content: center; }
-@media (min-width: 860px) {
+@media (min-width: 1060px) {
   .links, .hire { display: flex; }
   .burger, .mobile { display: none; }
 }

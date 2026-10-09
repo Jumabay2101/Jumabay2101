@@ -28,9 +28,9 @@ onMounted(() => {
       <HeroSection />
       <div class="wrap">
         <AboutSection />
+        <ProjectsSection v-if="projects.length" />
         <SkillsSection />
         <AiLabSection />
-        <ProjectsSection v-if="projects.length" />
         <ServicesSection />
         <ContactSection />
       </div>

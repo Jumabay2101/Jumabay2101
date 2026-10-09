@@ -217,25 +217,83 @@ export const workflow = [
 ]
 
 // ─────────────────────────────────────────────────────────────
-//  PROJECTS — add your real work here. The section stays hidden
-//  until this list has at least one item. Example:
-//
-//  {
-//    title: 'DocChat — RAG assistant',
-//    desc: 'Chat with company PDFs. FastAPI + pgvector + Llama 3 (4-bit).',
-//    tags: ['FastAPI', 'RAG', 'pgvector', 'Nuxt'],
-//    github: 'https://github.com/Jumabay2101/docchat',
-//    live: 'https://docchat.vercel.app',
-//    image: '/projects/docchat.png',   // put the file in /public/projects/
-//  },
+//  PROJECTS — real work. `featured` spans the full row.
+//  Images go in /public/projects/. Cards without an image get a
+//  generated cover using `icon` + `cover` (two CSS colors).
 // ─────────────────────────────────────────────────────────────
 export type Project = {
   title: string
+  kind: string
   desc: string
+  highlights?: string[]
   tags: string[]
   github?: string
   live?: string
   image?: string
+  icon?: 'brain' | 'server' | 'monitor' | 'phone' | 'box' | 'sparkles'
+  cover?: [string, string]
+  featured?: boolean
 }
 
-export const projects: Project[] = []
+export const projects: Project[] = [
+  {
+    title: 'Horjun — business discovery platform',
+    kind: 'Full-stack · Web · Mobile · DevOps',
+    desc: 'A platform for finding restaurants, shops, beauty salons and hotels across Turkmenistan — with reviews, ratings, news and 360° virtual tours. I worked across the whole stack: backend, admin dashboard, mobile app and deployment.',
+    highlights: [
+      '<b>Two Django REST backends</b> — staff/admin API and public client API with OTP login, JWT and Turkmen/Russian content',
+      '<b>Full-text search</b> with Meilisearch, <b>analytics</b> in ClickHouse, media storage on MinIO (S3)',
+      '<b>Campaign ad system</b> — advertisers, banner/video creatives, page slots, review workflow',
+      '<b>Nuxt 4 admin dashboard</b> — Element Plus, Tailwind, Pinia, ECharts, Leaflet maps, rich-text editor',
+      '<b>Flutter mobile app</b> for Android & iOS on top of the client API',
+      '<b>Docker Compose</b> infrastructure, Gunicorn + <b>Nginx</b>, GitLab CI/CD auto-deploy',
+    ],
+    tags: ['Django', 'DRF', 'PostgreSQL', 'Meilisearch', 'ClickHouse', 'MinIO', 'Nuxt 4', 'Flutter', 'Docker', 'Nginx'],
+    live: 'https://allin-one-eight.vercel.app',
+    image: '/projects/horjun.webp',
+    featured: true,
+  },
+  {
+    title: 'Turkmen AI voice assistant',
+    kind: 'AI · LLM fine-tuning · Speech',
+    desc: 'A voice assistant for the Turkmen language — a low-resource language most AI models handle poorly.',
+    highlights: [
+      '<b>QLoRA fine-tuning</b> of Qwen1.5-1.8B-Chat on a custom Turkmen instruction dataset',
+      '<b>4-bit NF4 quantized</b> inference so it runs on a consumer GPU',
+      '<b>Speech-to-text</b> with Meta MMS-1B and <b>text-to-speech</b> with MMS-TTS (Turkmen)',
+    ],
+    tags: ['PyTorch', 'Transformers', 'PEFT', 'QLoRA', 'bitsandbytes', 'MMS', 'STT', 'TTS'],
+    icon: 'brain',
+    cover: ['#10b981', '#6366f1'],
+  },
+  {
+    title: 'Face recognition attendance system',
+    kind: 'Computer vision · Backend · Web',
+    desc: 'Automatic school attendance: a camera recognizes students by face and records attendance, managed from a web dashboard.',
+    highlights: [
+      '<b>Face embeddings</b> with InsightFace + OpenCV, matched against registered students',
+      '<b>Django REST API</b> with JWT and Swagger docs; desktop camera client',
+      '<b>Nuxt + Tailwind dashboard</b> for students, classes, lessons, grades and attendance',
+    ],
+    tags: ['InsightFace', 'OpenCV', 'Django', 'DRF', 'JWT', 'Nuxt', 'Tailwind'],
+    icon: 'sparkles',
+    cover: ['#0ea5e9', '#8b5cf6'],
+  },
+  {
+    title: 'Sanly Horjun — company website',
+    kind: 'Frontend',
+    desc: 'Multilingual marketing website for a Turkmen telecom & IT solutions company.',
+    tags: ['Vue.js', 'Responsive', 'i18n', 'Vercel'],
+    github: 'https://github.com/Jumabay2101/sanly-horjun-prod',
+    live: 'https://sanly-horjun.vercel.app',
+    image: '/projects/sanly-horjun.webp',
+  },
+  {
+    title: 'Turkmen language model from scratch',
+    kind: 'AI · NLP research',
+    desc: 'A character-level language model trained from zero on a Turkmen corpus I scraped from Wikipedia, plus a web-search question-answering experiment.',
+    tags: ['PyTorch', 'LSTM', 'NLP', 'Web scraping', 'BeautifulSoup'],
+    icon: 'server',
+    cover: ['#f59e0b', '#ef4444'],
+  },
+]
